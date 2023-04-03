@@ -8,6 +8,11 @@
 	cursor: pointer;
 }
 
+.dark {
+	background-color: #1e1e1e;
+	color: white;
+}
+
 button {
 	background: #3498db;
 	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);

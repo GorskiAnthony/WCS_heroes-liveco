@@ -11,6 +11,12 @@ function HeroCard({ name, appearance, images }) {
 	const [like, setLike] = useState(0);
 	const [dislike, setDislike] = useState(0);
 
+	/**
+	 * localStorage
+	 * - setItem pour enregister une donnée dans le navigateur
+	 * - getItem pour récupérer la donnée dans le navigateur
+	 */
+
 	const handleLike = () => {
 		setLike(like + 1);
 	};
